@@ -1,0 +1,7 @@
+2025/10/16-14:12:21.579 a04 Recovering log #200
+2025/10/16-14:12:21.590 a04 Delete type=0 #200
+2025/10/16-14:12:21.591 a04 Delete type=3 #198
+2025/10/19-01:36:01.398 175c Level-0 table #205: started
+2025/10/19-01:36:01.402 175c Level-0 table #205: 8206 bytes OK
+2025/10/19-01:36:01.406 175c Delete type=0 #203
+2025/10/19-01:36:01.427 175c Manual compaction at level-0 from '!scenes!b9xnoqI3QFFxYNty' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!zI4PcJbU4JCZtuF7.BCPLHYRYqhIU5uUg.yqlIMGwHMPVAaL9b' @ 0 : 0; will stop at (end)

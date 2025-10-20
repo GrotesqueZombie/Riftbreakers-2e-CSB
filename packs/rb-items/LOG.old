@@ -1,0 +1,8 @@
+2025/10/16-14:12:21.549 4470 Recovering log #200
+2025/10/16-14:12:21.561 4470 Delete type=0 #200
+2025/10/16-14:12:21.561 4470 Delete type=3 #198
+2025/10/19-01:36:01.308 175c Level-0 table #205: started
+2025/10/19-01:36:01.308 175c Level-0 table #205: 0 bytes OK
+2025/10/19-01:36:01.327 175c Delete type=0 #203
+2025/10/19-01:36:01.379 175c Manual compaction at level-0 from '!items!mkaFwTJ9ReYnsjUm' @ 72057594037927935 : 1 .. '!items!mkaFwTJ9ReYnsjUm' @ 0 : 0; will stop at (end)
+2025/10/19-01:36:01.380 175c Manual compaction at level-1 from '!items!mkaFwTJ9ReYnsjUm' @ 72057594037927935 : 1 .. '!items!mkaFwTJ9ReYnsjUm' @ 0 : 0; will stop at (end)
