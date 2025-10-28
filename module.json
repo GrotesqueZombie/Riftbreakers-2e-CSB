@@ -1,13 +1,12 @@
 {
-  "id": "riftbreakers-compedium",
-  "title": "Riftbreakers 2E CSB",
-  "version": "1.0.0",
-    "manifest": "https://github.com/GrotesqueZombie/Riftbreakers-2e-CSB/releases/latest/download/module.json",
-   "download": "https://github.com/GrotesqueZombie/Riftbreakers-2e-CSB/releases/download/1.0.1/module.zip",
+  "id": "riftbreaker2e-csb",
+  "title": "Riftbreaker2E CSB",
+  "version": "1.0.3",
+  "manifest": "https://github.com/GrotesqueZombie/Riftbreakers-2e-CSB/releases/latest/download/module.json",
+  "download": "https://github.com/GrotesqueZombie/Riftbreakers-2e-CSB/releases/download/1.0.3/module.zip",
   "compatibility": {
-    "minimum": "12",
-    "verified": "12",
-    "maximum": "13"
+    "minimum": "13",
+    "verified": "13"
   },
   "authors": [
     {
@@ -16,10 +15,16 @@
       "url": "https://www.youtube.com/@GrotesqueGames",
       "flags": {}
     }
+    
   ],
   "styles": [
-    "css/rbcsbstyles.css"
+    {
+      "src": "css/rb2estyles.css"
+    }
   ],
+  "flags": {
+    "canUpload": true
+  },
   "packs": [
     {
       "name": "rb-actors-and-templates",
@@ -48,18 +53,6 @@
       "label": "RB Macros",
       "path": "packs/rb-macros",
       "type": "Macro",
-      "system": "custom-system-builder",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "rb-scenes",
-      "label": "RB Scenes",
-      "path": "packs/rb-scenes",
-      "type": "Scene",
-      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -70,20 +63,23 @@
       "label": "RB Rolltables",
       "path": "packs/rb-rolltables",
       "type": "RollTable",
-      "system": "custom-system-builder",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "system": "custom-system-builder"
+    },
+    {
+      "name": "rb-scenes",
+      "label": "RB Scenes",
+      "path": "packs/rb-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "custom-system-builder"
     }
   ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "custom-system-builder",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  }
+  "description": ""
 }

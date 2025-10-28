@@ -1,0 +1,217 @@
+/* ================================
+   🌑 GLOBAL STYLES
+================================= */
+.green-panel {
+  background: url('../assets/parchment.jpg');
+  border: 1px solid #222;
+  padding: 6px;
+  border-radius: 4px;
+  color: #000000; /* optional: make text readable */
+}
+/*Global Font Color*/
+.custom-system-actor {
+	background-color: #4f5b4d;
+	color: #000000;
+	font-family: 'Segoe UI', sans-serif;
+}
+.custom-system-actor input, .custom-system-actor select {
+	color: #000000;
+}
+/* Atrribute Buttons */
+.custom-system-actor a.content-link, .custom-system-actor input[type="button"] {
+	background-color: #cacaca;
+}
+.custom-system-actor .custom-system-rollable {
+	color: #ff4040;
+}
+.custom-system-see-attributes {
+    	background-color: #ff0000;
+        color:#f8f3f3;
+}
+
+.csb-label.csb-button {
+  background-color: white;
+  color: #000000;
+}
+/* Affects Label Text */
+.custom-system-label {
+	font-weight: bold;
+	font-size: 14px;
+}
+.info-text {
+    color: #ff4040; /* Base text color */
+    font-size: 14px;
+    text-shadow: 
+        0 0 10px #00f, /* First shadow layer (inner glow) */
+    animation: glow 1.5s ease-in-out infinite alternate; /* Apply animation */
+}
+.glow-hover {
+  transition: text-shadow 0.25s ease, color 0.25s ease;
+}
+
+.glow-hover:hover {
+  color: #ff0000; /* optional, makes the glow stand out */
+  text-shadow: 0 0 5px #ff4040, 0 0 10px #ff4040, 0 0 20px #ff4040;
+}
+/* ================================
+   📦 PANELS & FIELD BLOCKS
+================================= */
+.attr-panel, .skill-panel, .skill-panel-thick, .extras-panel {
+	border: 1px solid #3f6445;;
+	border-radius: 4px;
+	padding: 4px 6px;
+	margin-bottom: 4px;
+}
+
+.attr-panel {
+	min-width: 238px;
+	border-color: #3f6445;;
+}
+
+.skill-panel-thick {
+	border-width: 2px;
+}
+
+.skill-row {
+	border-top: 1px solid #777;
+	padding: 2px 0;
+}
+/* Right Separator */
+.skill-col-1 {
+	border-right: 1px solid #777;
+	padding: 2px;
+}
+
+.skill-col-2 {
+	padding: 2px;
+}
+
+.skill-label {
+	font-weight: 600;
+}
+
+.skill-field {
+	width: 30px;
+}
+
+.skill-cb input {
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+}
+
+/* ================================
+   🧮 ATTRIBUTES & INPUTS
+================================= */
+.attr-label {
+	width: 120px;
+	font-size: 18px;
+	font-weight: 800;
+	margin: 0;
+	padding: 0;
+}
+
+.attr-field {
+	width: 40px;
+	font-size: 18px;
+	margin: 1px 0;
+}
+
+.attr-field2 {
+	width: 60px;
+	font-size: 18px;
+	margin: 1px 0 1px 42px !important;
+}
+
+/* ================================
+   📋 TABLES & GRID LAYOUT
+================================= */
+.custom-table td,
+.bordered-table td,
+.backpack td {
+	border-top: 1px solid #888;
+	padding: 2px 4px;
+}
+
+.backpack td:first-child {
+	width: 25px;
+}
+
+.small-table table td {
+	padding: 1px;
+	margin: 0;
+}
+
+.char-table td,
+.masteries td {
+	vertical-align: top;
+}
+
+.masteries td {
+	width: 50%;
+}
+
+/* ================================
+   📐 FLEX + LAYOUT HELPERS
+================================= */
+.flex-row {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
+}
+
+.flex-col {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.vertical-middle,
+.vertical-middle td {
+	vertical-align: middle;
+}
+
+.overseer-col1 {
+	width: 200px;
+	flex: none;
+}
+
+/* ================================
+   🧩 UTILITY CLASSES
+================================= */
+.italics {
+	font-style: italic;
+}
+
+.small-font {
+	font-size: 12px;
+}
+
+.big-text {
+	font-size: 1.4em;
+}
+
+.w-25 { width: 25%; }
+.w-50 { width: 50%; }
+.w-100 { width: 100%; }
+
+.p0 { padding: 0 !important; }
+.p1 { padding: 4px !important; }
+.m0 { margin: 0 !important; }
+.mt2 { margin-top: 2px !important; }
+
+.tight-field {
+	margin-left: 2px;
+}
+
+.custom-system-field-root {
+	margin-left: 4px;
+}
+
+/* Optional slash separator style */
+.slash {
+	width: 10px;
+	padding: 0;
+	margin: 0;
+}
+
