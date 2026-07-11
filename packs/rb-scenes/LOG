@@ -1,8 +1,15 @@
-2025/10/30-00:26:49.498 473c Recovering log #26
-2025/10/30-00:26:49.509 473c Delete type=0 #26
-2025/10/30-00:26:49.509 473c Delete type=3 #24
-2025/10/30-07:38:14.245 7738 Level-0 table #31: started
-2025/10/30-07:38:14.245 7738 Level-0 table #31: 0 bytes OK
-2025/10/30-07:38:14.249 7738 Delete type=0 #29
-2025/10/30-07:38:14.265 7738 Manual compaction at level-0 from '!scenes!1StP9JYepBFZPDSt' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!WCBupc5drCbtV6ey.G7qGCFs8tyMeQ0mF.bswawd0JtTeImrWF' @ 0 : 0; will stop at (end)
-2025/10/30-07:38:14.265 7738 Manual compaction at level-1 from '!scenes!1StP9JYepBFZPDSt' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!WCBupc5drCbtV6ey.G7qGCFs8tyMeQ0mF.bswawd0JtTeImrWF' @ 0 : 0; will stop at (end)
+2026/07/11-13:30:58.906 57c8 Recovering log #19
+2026/07/11-13:30:58.918 57c8 Delete type=0 #19
+2026/07/11-13:30:58.918 57c8 Delete type=3 #18
+2026/07/11-13:32:35.883 46ac Level-0 table #23: started
+2026/07/11-13:32:35.888 46ac Level-0 table #23: 5741 bytes OK
+2026/07/11-13:32:35.893 46ac Delete type=0 #21
+2026/07/11-13:32:35.898 46ac Manual compaction at level-0 from '!scenes!1StP9JYepBFZPDSt' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!WCBupc5drCbtV6ey.G7qGCFs8tyMeQ0mF.bswawd0JtTeImrWF' @ 0 : 0; will stop at (end)
+2026/07/11-13:32:35.898 46ac Manual compaction at level-1 from '!scenes!1StP9JYepBFZPDSt' @ 72057594037927935 : 1 .. '!scenes.tokens.delta!WCBupc5drCbtV6ey.G7qGCFs8tyMeQ0mF.bswawd0JtTeImrWF' @ 0 : 0; will stop at '!scenes.tokens.delta!WCBupc5drCbtV6ey.G7qGCFs8tyMeQ0mF.bswawd0JtTeImrWF' @ 24 : 1
+2026/07/11-13:32:35.898 46ac Compacting 1@1 + 1@2 files
+2026/07/11-13:32:35.905 46ac Generated table #24@1: 14 keys, 5741 bytes
+2026/07/11-13:32:35.905 46ac Compacted 1@1 + 1@2 files => 5741 bytes
+2026/07/11-13:32:35.911 46ac compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/07/11-13:32:35.911 46ac Delete type=2 #5
+2026/07/11-13:32:35.911 46ac Delete type=2 #23
+2026/07/11-13:32:35.921 46ac Manual compaction at level-1 from '!scenes.tokens.delta!WCBupc5drCbtV6ey.G7qGCFs8tyMeQ0mF.bswawd0JtTeImrWF' @ 24 : 1 .. '!scenes.tokens.delta!WCBupc5drCbtV6ey.G7qGCFs8tyMeQ0mF.bswawd0JtTeImrWF' @ 0 : 0; will stop at (end)
